@@ -1,0 +1,9 @@
+Account balance information:
+Savings account balance: $10000
+Investment account balance: $100000
+
+Successfully transferred $100
+
+Account balance after transaction:
+Savings account: $10100
+Investment account: $99900
