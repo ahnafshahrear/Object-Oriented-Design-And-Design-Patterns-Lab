@@ -6,4 +6,4 @@
 
 
 ### Sequence Diagram
-![]('ATM Sequence Diagram.png')
+![](ATM Sequence Diagram.png)
