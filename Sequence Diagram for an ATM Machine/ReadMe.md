@@ -18,15 +18,15 @@ between an ATM machine and a customer, followed by an explanation of its operati
 
 ### Operating Process of the ATM System
 1. **_Card Insertion:_ The Customer inserts their ATM card into the machine, triggering the start of the interaction.**
-2. **_PIN Entry:_ The Customer enters their Personal Identification Number (PIN) securely.**
-3. **_Transaction Selection:_ The Customer selects the type of transaction they want to perform, such as "Cash Withdrawal," "Balance Inquiry," or "Fund Transfer."**
-4. **_Transaction Validation:_ The ATM sends the transaction details, including the card number, PIN, and requested amount, to the Bank Server for validation.**
+2. **_PIN Entry:_ The Customer enters their PIN securely.**
+3. **_Transaction Selection:_ The Customer selects the type of transaction they want to perform, such as "Cash Withdrawal" "Balance Inquiry" or "Fund Transfer".**
+4. **_Transaction Validation:_ The ATM sends the transaction details, including the card number, PIN and requested amount to the Bank Server for validation.**
 5. **_Bank Server Processing:_ The Bank Server receives the request and authenticates the customer. It checks the account balance and other necessary information.**
 6. **_Transaction Authorization:_ If the Bank Server approves the transaction, it authorizes the ATM to proceed. If not, the ATM informs the Customer of the transaction denial.**
 7. **_Cash Dispensation:_ For a successful cash withdrawal, the ATM dispenses the requested amount to the Customer.**
 8. **_Receipt Printing (Optional):_ Depending on the transaction, the ATM may provide a transaction receipt to the Customer.**
 9. **_Transaction Completion:_ The ATM updates the account balance and records the transaction.**
-10. **_Card Retrieval:_ The Customer retrieves their ATM card and the system returns to an idle state.**
+10. **_Card Retrieval:_ The Customer retrieves their ATM card.**
 
 ### Conclusion
 - **The proposed ATM system is designed to provide a secure and efficient means for customers to perform various financial transactions. The UML sequence diagram and
