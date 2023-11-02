@@ -1,4 +1,4 @@
-## Housing Structure using Composite Design Pattern
+## Vending Machine using State Design Pattern
 - **Object Oriented & Design Pattern Lab**
 - **[Ahnaf Shahrear Khan](https://github.com/ahnafshahrear)**
 - **Computer Science & Engineering, University of Rajshahi**
