@@ -11,7 +11,7 @@ public class Main {
         vendingMachine.ejectMoney();
 
         vendingMachine.insertDollar();
-        vendingMachine.insertDollar();
+        vendingMachine.insertDollar
         vendingMachine.dispense();
 
         System.out.println("Current state: " + vendingMachine.getCurrentState().getClass().getSimpleName());
