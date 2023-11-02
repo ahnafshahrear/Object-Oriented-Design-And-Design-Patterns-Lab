@@ -1,0 +1,15 @@
+Initial state: IdleState
+Dollar inserted
+Releasing product
+Product dispensed
+Dollar inserted
+Returning money
+Money returned
+Dollar inserted
+Already have one dollar
+Releasing product
+Product dispensed
+Current state: IdleState
+No money to return
+Payment required
+Remaining products: 3
