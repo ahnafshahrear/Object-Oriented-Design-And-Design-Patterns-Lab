@@ -17,7 +17,7 @@ public class Main {
         System.out.println("Current state: " + vendingMachine.getCurrentState().getClass().getSimpleName());
 
         vendingMachine.ejectMoney();
-        vendingMachine.dispense();
+        vendingMachine.dispense
 
         System.out.println("Remaining products: " + vendingMachine.getCount());
     }
