@@ -35,5 +35,4 @@ public class ChequingAccount implements Account {
     {
         return amount;
     }
-    
 }
