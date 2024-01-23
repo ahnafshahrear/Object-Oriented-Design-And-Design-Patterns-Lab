@@ -6,4 +6,6 @@ public interface Account {
     public void transfer(int amount, Account to);
 
     public int getAccountNumber();
+
+    public int getAmount();
 }

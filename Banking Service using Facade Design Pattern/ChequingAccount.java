@@ -31,6 +31,7 @@ public class ChequingAccount implements Account {
         return accountNumber;
     }
 
+    @Override
     public int getAmount()
     {
         return amount;

@@ -40,6 +40,6 @@ public class BankService {
 
     public int getAccountBalance(int accountNumber) {
         Account account = this.bankAccounts.get(accountNumber);
-        return account.getAccountBalance();
+        return account.getAmount();
     }
 }
