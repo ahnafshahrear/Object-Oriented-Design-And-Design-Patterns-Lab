@@ -8,7 +8,7 @@
 ## Lab Tasks
 
 ### Lab Experiments on Object Oriented Analysis & Design
-- **Lab Assignment 1: [Write a Java Program demonstrating multiple interface/inheritance. You are free to choose the application for demonstrating multiple interface/inheritance.]() ✓**
+- **Lab Assignment 1: [Write a Java Program demonstrating multiple interface/inheritance. You are free to choose the application for demonstrating multiple interface/inheritance.](https://github.com/ahnafshahrear/Object-Oriented-Design-And-Design-Patterns-Lab/tree/main/Example%20of%20Java%20Multiple%20Inheritance) ✓**
 - **Lab Assignment 2: [Write a Java program to demonstrate a Pet Management System - which can be a pet shop, pet care or pet service. You have to follow appropriate object oriented design concepts to implement the tasks.](https://github.com/ahnafshahrear/Animal-Hospital-Management-System) ✓**
 
 ### Lab Experiments on Design Pattern
