@@ -1,9 +1,9 @@
-Account balance information:
-Savings account balance: $10000
-Investment account balance: $100000
-
-Successfully transferred $100
-
-Account balance after transaction:
-Savings account: $10100
-Investment account: $99900
+Saving account successfully created
+Investment account successfully created
+Saving account balance $99999
+Investment account balance $100000
+Successfully withdrawn $1
+Successfully deposited $1
+After money transfer...
+Saving account balance $100000
+Investment account balance $99999
