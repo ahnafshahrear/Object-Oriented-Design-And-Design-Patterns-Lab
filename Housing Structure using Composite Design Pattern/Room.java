@@ -1,23 +1,27 @@
-public class Room implements HouseInterface {
+public class Room implements HousingStructure {
     private String name;
 
     public Room(String name) {
         this.name = name;
     }
-
+    
+    @Override
     public void enter() {
-        System.out.println("You have entered the " + name);
+        System.out.println("You have entered the " + this.name);
     }
 
+    @Override
     public void exit() {
-        System.out.println("You have left the " + name);
+        System.out.println("You have left the " + this.name);
     }
 
-    public void showLocation() {
-        System.out.println("You are currently in " + this.getInformation());
+    @Override
+    public void location() {
+        System.out.println("You are currently in the " + this.name);
     }
 
-    public String getInformation() {
-        return name;
-    }
+    @Override
+    public String getName() {
+        return this.name;
+    }   
 }

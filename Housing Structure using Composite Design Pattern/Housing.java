@@ -1,35 +1,40 @@
 import java.util.ArrayList;
 
-public class Housing implements HouseInterface {
-    private String address;
-    private ArrayList<HouseInterface> structures;
+public class Housing implements HousingStructure {
+    private String name;
+    private ArrayList<HousingStructure> components;
 
-    public Housing(String address) {
-        this.structures = new ArrayList<HouseInterface>();
-        this.address = address;
+    Housing(String name) {
+        this.name = name;
+        components = new ArrayList<>();
     }
 
+    @Override
     public void enter() {
-        System.out.println("You have entered the " + address);
+        System.out.println("You have entered the " + this.name);
     }
 
+    @Override
     public void exit() {
-        System.out.println("You have left the " + address);
+        System.out.println("You have left the " + this.name);
     }
 
-    public void showLocation() {
-        System.out.println("You are currently in " + this.getInformation() + ". It contains:");
-        int count = 1;
-        for (HouseInterface x : structures) {
-            System.out.println("(" + count++ + ") " + x.getInformation());
+    @Override
+    public void location() {
+        System.out.println("You are currently in the " + this.name);
+        System.out.println("It contains...");
+
+        for (HousingStructure component: this.components) {
+            System.out.println(component.getName());
         }
     }
 
-    public void addStructure(HouseInterface newFloor) {
-        structures.add(newFloor);
+    @Override
+    public String getName() {
+        return this.name;
     }
 
-    public String getInformation() {
-        return address;
+    public void addComponent(HousingStructure component) {
+        this.components.add(component);
     }
 }

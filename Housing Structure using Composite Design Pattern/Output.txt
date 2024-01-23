@@ -1,10 +1,16 @@
-You have entered the 221B Baker Street
-You are currently in 221B Baker Street. It contains:
-(1) 221B Baker Street - First FLoor
-You have entered the 221B Baker Street - First FLoor
-You are currently in 221B Baker Street - First FLoor. It contains:
-(1) Men's 1st floor washroom
-(2) Women's 1st floor washroom
-(3) 1st floor common room
-You have left the 221B Baker Street - First FLoor
-You have left the 221B Baker Street
+You have entered the 4th Science Building
+You are currently in the 4th Science Building
+It contains...
+Computer Science & Engineering
+Pharmacy
+You have entered the Computer Science & Engineering
+You are currently in the Computer Science & Engineering
+It contains...
+Seminar Library
+Office
+App & Game Testing Lab
+You have entered the App & Game Testing Lab
+You are currently in the App & Game Testing Lab
+You have left the App & Game Testing Lab
+You have left the Computer Science & Engineering
+You have left the 4th Science Building
