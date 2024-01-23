@@ -1,3 +1,0 @@
-class Item {
-    String name;
-}

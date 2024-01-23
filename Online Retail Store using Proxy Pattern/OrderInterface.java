@@ -1,3 +1,3 @@
 public interface OrderInterface {
-    void fulfillOrder(Order order);
+    void completeOrder(Order order);
 }
