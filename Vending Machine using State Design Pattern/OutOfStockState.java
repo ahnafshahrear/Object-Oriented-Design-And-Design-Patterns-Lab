@@ -1,15 +1,17 @@
 public class OutOfStockState implements State {
+    @Override
     public void insertDollar(VendingMachine vendingMachine) {
-        System.out.println("Out of stock. Cannot accept money.");
+        System.out.println("Sorry! Out of Stock");
     }
 
+    @Override
     public void ejectMoney(VendingMachine vendingMachine) {
         System.out.println("Returning money");
         vendingMachine.doReturnMoney();
-        vendingMachine.setState(vendingMachine.getIdleState());
     }
 
+    @Override
     public void dispense(VendingMachine vendingMachine) {
-        System.out.println("Out of stock. No product to dispense.");
+        System.out.println("Out of Stock");
     }
 }

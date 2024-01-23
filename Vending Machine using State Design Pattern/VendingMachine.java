@@ -2,19 +2,21 @@ public class VendingMachine {
     private State idleState;
     private State hasOneDollarState;
     private State outOfStockState;
+
     private State currentState;
     private int count;
 
-    public VendingMachine(int count) {
+    VendingMachine(int count) {
         idleState = new IdleState();
         hasOneDollarState = new HasOneDollarState();
         outOfStockState = new OutOfStockState();
+
         if (count > 0) {
             currentState = idleState;
             this.count = count;
         } else {
             currentState = outOfStockState;
-            this.count = 0;
+            this.count = count;
         }
     }
 
@@ -28,6 +30,19 @@ public class VendingMachine {
 
     public void dispense() {
         currentState.dispense(this);
+    }
+
+    public void doReturnMoney() {
+        System.out.println("Money returned from Vending Machine");
+    }
+
+    public void doReleaseProduct() {
+        count -= 1;
+        System.out.println("Product released from Vending Machine");
+    }
+
+    public void setState(State state) {
+        currentState = state;
     }
 
     public State getIdleState() {
@@ -44,22 +59,5 @@ public class VendingMachine {
 
     public int getCount() {
         return count;
-    }
-
-    public void doReleaseProduct() {
-        System.out.println("Product dispensed");
-        count--;
-    }
-
-    public void doReturnMoney() {
-        System.out.println("Money returned");
-    }
-
-    public void setState(State state) {
-        currentState = state;
-    }
-
-    public State getCurrentState() {
-        return currentState;
     }
 }
