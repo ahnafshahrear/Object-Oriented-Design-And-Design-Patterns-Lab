@@ -1,18 +1,19 @@
 public class BasicWebPage implements WebPage {
     private String html;
-    private String styleSheet;
-    private String script;
+    private String css;
+    private String js;
 
-    public BasicWebPage(String html, String styleSheet, String script) {
+    BasicWebPage(String html, String css, String js) {
         this.html = html;
-        this.styleSheet = styleSheet;
-        this.script = script;
+        this.css = css;
+        this.js = js;
     }
 
+    @Override
     public void display() {
         System.out.println("Basic Web Page:");
         System.out.println("HTML: " + html);
-        System.out.println("Stylesheet: " + styleSheet);
-        System.out.println("Script: " + script);
+        System.out.println("CSS: " + css);
+        System.out.println("JS: " + js);
     }
 }

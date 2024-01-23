@@ -1,11 +1,12 @@
 public class WebPageDecorator implements WebPage {
-    protected WebPage page;
+    WebPage webPage;
 
-    public WebPageDecorator(WebPage webpage) {
-        this.page = webpage;
+    WebPageDecorator(WebPage webPage) {
+        this.webPage = webPage;
     }
 
+    @Override
     public void display() {
-        this.page.display();
+        this.webPage.display();
     }
 }
