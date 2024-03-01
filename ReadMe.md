@@ -1,7 +1,7 @@
 # Object Oriented Design And Design Patterns Lab
 - **[Ahnaf Shahrear Khan](https://github.com/ahnafshahrear)**
 - **Computer Science & Engineering, University of Rajshahi**
-- **Code:** `CSE4122`
+- **Code: `CSE-4122`**
 
 ### **Check out my [Design Patterns](https://github.com/ahnafshahrear/Design-Patterns) Repository that contains 10 Design Patterns with examples**
 
